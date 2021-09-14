@@ -86,7 +86,7 @@
       "config": {
       "routerClass": "sap.m.routing.Router",
       "viewType": "XML",
-      "viewPath": "sap.ui.demo.walkthrough.view",
+      "viewPath": "project1.view",
       "controlId": "app",
       "controlAggregation": "pages"
       },
