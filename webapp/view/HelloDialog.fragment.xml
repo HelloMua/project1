@@ -6,10 +6,11 @@
         id="helloDialog"
         title="Hello {/recipient/name}">
         <content>
-            <c:Icon
+            <Image src="/image/sapfiori.png"></Image>
+            <!-- <c:Icon
                src="sap-icon://hello-world"
                size="8rem"
-               class="sapUiMediumMargin"/>
+               class="sapUiMediumMargin"/> -->
          </content>
         <beginButton>
             <Button
@@ -18,7 +19,7 @@
          </beginButton>
          <endButton>
             <Button
-               text="endButton"
+               text="Close"
                press=".onCloseDialog"/>
          </endButton>
     </Dialog>
